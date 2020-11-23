@@ -1,20 +1,3 @@
-/**
- *
- * Node.JS Instagram Tools
- * 
- * Original author of this project is man who say himself as "CCOCOT"
- * He deleted his own repository, then several members of SGBTeam are taking care
- * of development and new features.
- * 
- * And this is collection of several developments that have been carried out so far
- *
- * All credits to contributor are written in their each file development
- * 
- * Thank to all of contributors for developing this project
- * Especially you :)
- *
- */
-
 'use strict'
 
 const Client = require('instagram-private-api').V1;
@@ -29,11 +12,8 @@ const questionTools = [
     message:"Select tools:",
     choices:
       [
-        "[1]  Bot Like Timeline",
-        "[2]  Follow Followers Target by People",
-        "[3]  Follow Followers Target by Media",
-        "[4]  Follow Followers Target by Hastag",
-       
+        "[1]  My Like Timeline",
+               
         ""
       ] 
   }
@@ -45,7 +25,7 @@ const main = async () => {
     var toolChoise = await inquirer.prompt(questionTools);
     toolChoise = toolChoise.Tools;
     switch(toolChoise){
-      case "[1]  Bot Like Timeline":
+      case "[1]  My Like Timeline":
         await require("./src/botLikeTimeline.js");
         break;
       case "[2]  Follow Followers Target by People":
