@@ -33,20 +33,7 @@ const questionTools = [
         "[2]  Follow Followers Target by People",
         "[3]  Follow Followers Target by Media",
         "[4]  Follow Followers Target by Hastag",
-        "[5]  Follow Followers Target by Location",
-        "[6]  Follow Followers Target by People - with DM",
-        "[7]  Follow Followers Target by People - No Like",
-	      "[8]  Follow Followers Target by People - No Comment & Like",
-        "[9]  Repost Media Target by People",
-        "[10] Repost Media Target by Hashtag",
-        "[11] Repost Media Target by Link",
-        "[12] Comment & Like Followers Target by People",
-        "[13] Comment & Like Followers Target by Hashtag",
-        "[14] Bom Like Target's Post",
-        "[15] Bom Comment Target's Post",
-        "[16] Unfollow Not Followback",
-        "[17] Unfollow All Following",
-        "[18] Delete All Media",
+       
         ""
       ] 
   }
