@@ -96,7 +96,7 @@ console.log(chalk`
  {bold.cyan
   —————————————————— [INFORMATION] ————————————————————
 
-  [?] {bold.green Bot Like Timeline}
+  [?] {bold.green My Like Timeline}
  
   —————————————————————————————————————————————————————}
       `);
